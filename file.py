@@ -11,3 +11,4 @@ Use the randrange() function to generate an even number between 0 and 100.
 Compare your result with your classmate. What do you notice about the results? Write your answers as a comment.
 
 """
+#open
