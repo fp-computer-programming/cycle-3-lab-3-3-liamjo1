@@ -11,4 +11,17 @@ Use the randrange() function to generate an even number between 0 and 100.
 Compare your result with your classmate. What do you notice about the results? Write your answers as a comment.
 
 """
-#open
+import random
+
+x = random.randint(1, 100)
+print(x)
+
+#I got 68 and my classmate got 96
+
+z = random.seed(30)
+print(z)
+
+y = random.randrange(0, 100, 2)
+print(y)
+
+#I got "None" for the seed function. I got 68 for my randrange output. The answer is always different everytime I run the program but is always between 0 and 100.
